@@ -1,1 +1,3 @@
 # Actividad12
+
+Creo una clase abstracta Participante para poder guardar todo tipo de participantes en la actuacion, ya sea director, musico refuerzo o musico socio. La clase abstracta tiene el metodo abstracto toString() ya que necesito minimo un metodo abstracto y el toString() es el unico que voy a utilizar, cada clase hija lo utiliza de forma distinta el toString(). En las clases Actuacion.java y BandaMusica.java utilizo el sb.append para el toString() ya que en esas clases trabajo con ArrayLists. Además, en esas clases también uso foreach ya que es más claro que un for normal.
